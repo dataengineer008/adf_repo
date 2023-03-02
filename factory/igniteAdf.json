@@ -1,0 +1,9 @@
+{
+	"name": "igniteAdf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "515cd594-830f-4869-a176-d809cbfb47b0",
+		"tenantId": "0086f128-a4d5-4551-ba4c-a0829dabdff3"
+	}
+}

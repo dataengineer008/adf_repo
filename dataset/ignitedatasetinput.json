@@ -1,0 +1,19 @@
+{
+	"name": "ignitedatasetinput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "igniteLinkService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Data.txt",
+				"container": "ingniinput"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
